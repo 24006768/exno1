@@ -187,3 +187,6 @@ for col in ["ApplicantIncome", "CoapplicantIncome", "LoanAmount"]:
 
 # Result
  On checking the dataset in Excel using Filter/COUNTBLANK, the following missing values were identified successfully.
+
+ ## Summary 
+In this experiment, the loan dataset was cleaned to make it suitable for analysis. Missing values (NaN) were first identified and handled using different approaches such as dropping rows, filling with constants, forward/backward fill, and mean imputation for numeric columns like ApplicantIncome and LoanAmount. These techniques helped in retaining maximum useful data instead of losing important records. Outliers were then detected through boxplots and removed using the Z-score method, which eliminated extreme values that could mislead the analysis. Through this process, I understood that data cleaning is essential for improving data quality, ensuring accuracy, and preparing a reliable dataset for further analysis or machine learning tasks.
